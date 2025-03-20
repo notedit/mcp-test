@@ -1,0 +1,13 @@
+# This implementation only uses Python standard library modules
+# No external dependencies are required 
+
+# Dependencies for the MCP implementation
+mcp>=0.4.0
+openai>=1.12.0
+python-dotenv>=1.0.0
+
+# Dependencies for HTTP/SSE transport
+fastapi>=0.104.0
+uvicorn>=0.23.0
+httpx>=0.25.0
+sse-starlette>=1.6.1 
